@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loaner Request">6c98e80ef9b651107f44beb3e141815f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Properties</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>system_properties_ui.do?sysparm_title=Loaner Request Configuration&amp;sysparm_category=Loaner Request</query>
+        <report/>
+        <roles>x_cdltd_loaner_req.admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 17:33:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>457e8c47f93255107f44beb3e14181de</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Properties</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c607604af9b651107f44beb3e1418197</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">c607604af9b651107f44beb3e1418197</sys_scope>
+        <sys_update_name>sys_app_module_457e8c47f93255107f44beb3e14181de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-31 17:34:20</sys_updated_on>
+        <timeline_page/>
+        <title>Properties</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
