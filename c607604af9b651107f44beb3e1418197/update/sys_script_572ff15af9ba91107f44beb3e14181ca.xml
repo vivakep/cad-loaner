@@ -29,7 +29,7 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	if (current.end_date < current.start_date) {
+	if (current.u_end_date < current.u_start_date) {
 		gs.addErrorMessage('End date must be later than start date!');
 		current.setAbortAction(true);
 	}
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>572ff15af9ba91107f44beb3e14181ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Set start and end dates</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">c607604af9b651107f44beb3e1418197</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Loaner Request">c607604af9b651107f44beb3e1418197</sys_scope>
         <sys_update_name>sys_script_572ff15af9ba91107f44beb3e14181ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-29 17:50:23</sys_updated_on>
+        <sys_updated_on>2022-11-01 19:22:27</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
